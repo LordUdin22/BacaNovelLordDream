@@ -11,7 +11,7 @@
 
     <!-- Header Panel Pengaturan Membaca -->
     <header class="read-header">
-        <a href="index.html" class="btn-back-home">⬅ Beranda</a>
+        <a href="novel.html" class="btn-back-home">⬅ Kembali</a>
         
         <div class="floating-settings">
             <!-- Ukuran Huruf -->
@@ -52,6 +52,17 @@
             <article class="story-body" id="storyContent">
                 <!-- Paragraf cerita akan muncul di sini secara dinamis -->
             </article>
+            <!-- Isi Cerita -->
+            <article class="story-body" id="storyContent">
+                <!-- Paragraf cerita akan muncul di sini secara dinamis -->
+            </article>
+
+            <!-- ANGGOTA BARU: TOMBOL NAVIGASI BAWAH -->
+            <hr style="border: none; border-top: 1px solid #e2e8f0; margin: 30px 0 20px 0;">
+            <div class="episode-navigation">
+                <button id="btnPrev" onclick="navigateEpisode('prev')" class="btn-nav-ep">⬅ Episode Sebelumnya</button>
+                <button id="btnNext" onclick="navigateEpisode('next')" class="btn-nav-ep">Episode Selanjutnya ➡</button>
+            </div>
 
         </main>
     </div>

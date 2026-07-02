@@ -166,46 +166,80 @@ const novelDatabase = {
 // ==========================================
 // LOGIKA MENAMPILKAN CERITA SECARA DINAMIS
 // ==========================================
+// Variabel global untuk menyimpan posisi bacaan saat ini
+let currentNovelId = "";
+let currentEpisodeId = 1;
+
 window.onload = function() {
-    // Mengecek parameters di URL browser (contoh: baca.html?novel=1&ep=1)
     const urlParams = new URLSearchParams(window.location.search);
     const novelId = urlParams.get('novel');
     const episodeId = urlParams.get('ep');
 
-    // Jika kita sedang berada di halaman baca.html
     if (document.getElementById('storyContent') && novelId && episodeId) {
+        // Simpan data ke variabel global agar bisa dipakai tombol navigasi bawah
+        currentNovelId = novelId;
+        currentEpisodeId = parseInt(episodeId);
+
         const novel = novelDatabase[novelId];
         
         if (novel && novel.episodes[episodeId]) {
             const episode = novel.episodes[episodeId];
             
-            // Set Judul Novel dan Judul Episode di halaman HTML
             document.getElementById('novelTitle').innerText = novel.title;
             document.getElementById('chapterTitle').innerText = episode.title;
             
-            // Ambil wadah teks cerita
             const storyContentArea = document.getElementById('storyContent');
-            storyContentArea.innerHTML = ""; // Bersihkan teks bawaan
+            storyContentArea.innerHTML = "";
             
-            // Masukkan paragraf dari database satu per satu ke dalam HTML
             episode.content.forEach(paragraphText => {
                 const pTag = document.createElement('p');
                 pTag.innerText = paragraphText;
                 storyContentArea.appendChild(pTag);
             });
+
+            // ATUR TOMBOL SEBELUMNYA (Jika di episode 1, sembunyikan tombolnya)
+            if (currentEpisodeId === 1) {
+                document.getElementById('btnPrev').style.visibility = 'hidden';
+            } else {
+                document.getElementById('btnPrev').style.visibility = 'visible';
+            }
+
         } else {
-            // Jika data novel atau episode tidak ditemukan di database
             document.getElementById('novelTitle').innerText = "Konten Tidak Ditemukan";
             document.getElementById('chapterTitle').innerText = "Developer sedang menyusun bab ini.";
         }
     }
 };
 
+// FUNGSI BARU: LOGIKA LONCAT EPISODE / KEMBALI KE KOLEKSI NOVEL
+function navigateEpisode(direction) {
+    let targetEpisode = currentEpisodeId;
+
+    if (direction === 'next') {
+        targetEpisode = currentEpisodeId + 1;
+    } else if (direction === 'prev') {
+        targetEpisode = currentEpisodeId - 1;
+    }
+
+    const novel = novelDatabase[currentNovelId];
+
+    // Cek apakah episode target ada di database atau tidak
+    if (novel && novel.episodes[targetEpisode]) {
+        // Jika ada, langsung pindah ke episode tersebut
+        window.location.href = `baca.html?novel=${currentNovelId}&ep=${targetEpisode}`;
+    } else {
+        // Jika tidak ada / belum rilis (Coming Soon)
+        alert("Cerita episode berikutnya akan segera hadir, masih disiapkan oleh developer! 🙏");
+        // Langsung arahkan kembali ke halaman utama (koleksi novel)
+        window.location.href = "novel.html";
+    }
+}
+
 // ==========================================
 // FITUR GLOBAL & AKSESIBILITAS UTAMA
 // ==========================================
 
-// Fungsi Pindah Menu Tab di Index
+// Fungsi Pindah Menu Tab di Novel
 function switchTab(tabId) {
     const contents = document.querySelectorAll('.tab-content');
     contents.forEach(content => content.classList.remove('active'));

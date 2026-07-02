@@ -3,141 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BacaNovelLordDream</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Font Keren dari Google Fonts -->
+    <title>BacaNovelLordDream - Beranda</title>
+    <link rel="stylesheet" href="style.css?v=1.2">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <!-- NAVIGASI UNTUK LAPTOP / DESKTOP (Sembunyi di HP) -->
     <header class="desktop-header">
         <div class="logo">👑 BacaNovelLordDream</div>
         <nav class="nav-menu">
-            <button class="nav-link active" onclick="switchTab('beranda')">Beranda</button>
-            <button class="nav-link" onclick="switchTab('novel')">Novel</button>
-            <button class="nav-link" onclick="switchTab('pengaturan')">Pengaturan</button>
-            <button class="nav-link" onclick="switchTab('about')">About</button>
+            <a href="index.html" class="nav-link active">Beranda</a>
+            <a href="novel.html" class="nav-link">Novel</a>
+            <a href="pengaturan.html" class="nav-link">Pengaturan</a>
+            <a href="about.html" class="nav-link">About</a>
         </nav>
     </header>
 
-    <!-- NAVIGASI BAWAH KHUSUS HANDPHONE (Sembunyi di Laptop) -->
     <nav class="mobile-bottom-nav">
-        <button class="mobile-nav-link active" onclick="switchTab('beranda')">
-            <span class="nav-icon">🏠</span>
-            <span class="nav-text">Beranda</span>
-        </button>
-        <button class="mobile-nav-link" onclick="switchTab('novel')">
-            <span class="nav-icon">📚</span>
-            <span class="nav-text">Novel</span>
-        </button>
-        <button class="mobile-nav-link" onclick="switchTab('pengaturan')">
-            <span class="nav-icon">⚙️</span>
-            <span class="nav-text">Pengaturan</span>
-        </button>
-        <button class="mobile-nav-link" onclick="switchTab('about')">
-            <span class="nav-icon">👑</span>
-            <span class="nav-text">About</span>
-        </button>
+        <a href="index.html" class="mobile-nav-link active">🏠<span class="nav-text">Beranda</span></a>
+        <a href="novel.html" class="mobile-nav-link">📚<span class="nav-text">Novel</span></a>
+        <a href="pengaturan.html" class="mobile-nav-link">⚙️<span class="nav-text">Pengaturan</span></a>
+        <a href="about.html" class="mobile-nav-link">👑<span class="nav-text">About</span></a>
     </nav>
 
-    <!-- WADAH KONTEN UTAMA -->
     <main class="container">
-        
-        <!-- HALAMAN 1: BERANDA -->
-        <section id="beranda" class="tab-content active">
-            <div class="hero-section">
-                <h1>Mulai Petualangan <br><span>Imajinasimu</span> Di Sini</h1>
-                <p>Temukan ribuan kisah seru, romantis, fantasi, dan aksi yang di-update setiap hari dengan kenyamanan membaca nomor satu.</p>
-                <button class="btn-primary" onclick="switchTab('novel')">Mulai Membaca</button>
-            </div>
+        <section class="hero-section">
+            <h1>Mulai Petualangan <br><span>Imajinasimu</span> Di Sini</h1>
+            <p>Temukan ribuan kisah seru, romantis, fantasi, dan aksi yang di-update setiap hari dengan kenyamanan membaca nomor satu.</p>
+            <a href="novel.html" class="btn-primary" style="text-decoration:none; display:inline-block;">Mulai Membaca</a>
         </section>
-
-        <!-- HALAMAN 2: NOVEL -->
-        <section id="novel" class="tab-content">
-            <h2 class="section-title">Jelajahi Koleksi Novel</h2>
-            <div class="novel-grid">
-                
-                <!-- CARD NOVEL 1: FANTASI -->
-                <div class="novel-card">
-                    <div class="novel-cover" style="background: linear-gradient(135deg, #2b6cb0, #4299e1); color: white;">⏳</div>
-                    <div class="novel-info">
-                        <h3>Petualangan Sang Pengendali Waktu</h3>
-                        <p class="author">Oleh: LordDream Developer</p>
-                        <p class="synopsis">Kisah seorang pemuda yang menemukan arloji kuno misterius penahan waktu dan membuka takdir dunia yang membeku.</p>
-                        <div class="episode-container">
-                            <h4>Pilih Episode:</h4>
-                            <div class="episode-list">
-                                <a href="baca.html?novel=1&ep=1" class="btn-ep">Episode 1</a>
-                                <a href="baca.html?novel=1&ep=2" class="btn-ep">Episode 2</a>
-                                <a href="baca.html?novel=1&ep=3" class="btn-ep">Episode 3</a> <!-- SEKARANG BISA DIBACA -->
-                                <button onclick="comingSoon()" class="btn-ep locked">Episode 4 🔒</button> <!-- AUTOMATIC NEXT LOCK -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- CARD NOVEL 2: ROMANTIS -->
-                <div class="novel-card">
-                    <div class="novel-cover" style="background: linear-gradient(135deg, #b7791f, #ecc94b); color: white;">🌸</div>
-                    <div class="novel-info">
-                        <h3>Simfoni Hujan di Ujung Senja</h3>
-                        <p class="author">Oleh: LordDream Developer</p>
-                        <p class="synopsis">Tentang sebuah melodi klasik, rahasia di balik untaian surat merah muda, dan dua hati yang dipertemukan oleh rintik gerimis sore hari.</p>
-                        <div class="episode-container">
-                            <h4>Pilih Episode:</h4>
-                            <div class="episode-list">
-                                <a href="baca.html?novel=2&ep=1" class="btn-ep">Episode 1</a> <!-- SEKARANG BISA DIBACA -->
-                                <button onclick="comingSoon()" class="btn-ep locked">Episode 2 🔒</button> <!-- AUTOMATIC NEXT LOCK -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-                <!-- Kamu bisa tambah Card Novel 2, 3 dst di bawah sini -->
-
-            </div>
-        </section>
-
-        <!-- HALAMAN 3: PENGATURAN GLOBAL -->
-        <section id="pengaturan" class="tab-content">
-            <h2 class="section-title">Pengaturan Tampilan Web</h2>
-            <div class="settings-box">
-                <div class="setting-item">
-                    <label>Tema Warna Default Aplikasi</label>
-                    <select id="globalTheme" onchange="changeGlobalTheme()">
-                        <option value="light">Mode Terang (Minimalis Blue)</option>
-                        <option value="dark">Mode Gelap (Premium Dark)</option>
-                    </select>
-                </div>
-                
-                <!-- GANTI NOTIFIKASI JADI KONTAK DEVELOPER -->
-                <div class="contact-developer-box">
-                    <h4>Butuh Bantuan atau Info Lebih Lanjut?</h4>
-                    <p>Jika ada kendala sistem atau ingin bekerja sama, silakan hubungi developer resmi melalui WhatsApp:</p>
-                    <a href="https://wa.me/6285862747061" target="_blank" class="btn-whatsapp">
-                        💬 Hubungi Developer via WhatsApp
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <!-- HALAMAN 4: ABOUT -->
-        <section id="about" class="tab-content">
-            <div class="about-card">
-                <div class="about-icon">👑</div>
-                <h2>Tentang BacaNovelLordDream</h2>
-                <p><strong>BacaNovelLordDream</strong> adalah sebuah platform masa depan untuk para pencinta literasi digital. Kami berfokus pada kecepatan update konten setiap hari serta kenyamanan visual pembaca.</p>
-                <hr>
-                <h3>Tentang Developer</h3>
-                <p>Dikembangkan dengan dedikasi penuh menggunakan VS Code dan dikelola secara aman melalui GitHub untuk memastikan performa website yang ringan, responsif, dan bebas gangguan.</p>
-            </div>
-        </section>
-
     </main>
-
     <script src="script.js"></script>
 </body>
 </html>

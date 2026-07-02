@@ -435,3 +435,45 @@ body.mode-sepia .read-header, body.mode-sepia .novel-reading-wrapper {
     .meta-novel h1 { font-size: 1.4rem; }
     .floating-settings select { padding: 4px 6px; font-size: 0.75rem; }
 }
+
+/* ==========================================
+   DESAIN TOMBOL NAVIGASI HALAMAN BACA
+   ========================================== */
+.episode-navigation {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn-nav-ep {
+    flex: 1;
+    padding: 12px 20px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border: 2px solid var(--accent-color);
+    border-radius: 8px;
+    background: transparent;
+    color: var(--accent-color);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: center;
+}
+
+.btn-nav-ep:hover {
+    background: var(--accent-gradient);
+    color: white;
+    border-color: transparent;
+    box-shadow: 0 4px 12px rgba(49, 130, 206, 0.2);
+}
+
+/* Penyesuaian Tombol Navigasi saat di HP agar Full Lebar */
+@media (max-width: 768px) {
+    .episode-navigation {
+        padding: 0 5px;
+    }
+    .btn-nav-ep {
+        padding: 10px 10px;
+        font-size: 0.85rem;
+    }
+}
