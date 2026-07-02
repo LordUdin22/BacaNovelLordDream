@@ -1,4 +1,6 @@
-/* Reset & Base Gaya */
+/* ==========================================
+   GAYA UTAMA (SAMA UNTUK LAPTOP & HP)
+   ========================================== */
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +17,6 @@
     --accent-gradient: linear-gradient(135deg, #3182ce, #4fd1c5);
 }
 
-/* Mode Gelap Global (jika diaktifkan di pengaturan) */
 .dark-theme {
     --bg-primary: #1a202c;
     --bg-card: #2d3748;
@@ -29,8 +30,7 @@ body {
     transition: background 0.3s, color 0.3s;
 }
 
-/* Header & Navigasi */
-header {
+.desktop-header {
     background: var(--bg-card);
     padding: 1.2rem 8%;
     display: flex;
@@ -73,7 +73,6 @@ header {
     box-shadow: 0 4px 10px rgba(49, 130, 206, 0.3);
 }
 
-/* Konten Tab (Logika Sembunyi/Muncul) */
 .tab-content {
     display: none;
     animation: fadeIn 0.4s ease forwards;
@@ -94,7 +93,6 @@ header {
     padding: 0 20px;
 }
 
-/* Tampilan Hero Beranda */
 .hero-section {
     text-align: center;
     padding: 60px 20px;
@@ -131,7 +129,6 @@ header {
     box-shadow: 0 5px 15px rgba(49, 130, 206, 0.4);
 }
 
-/* Grid & Card Novel */
 .section-title {
     margin-bottom: 30px;
     font-size: 1.8rem;
@@ -166,7 +163,6 @@ header {
 }
 
 .novel-cover {
-    background: #e2e8f0;
     height: 160px;
     display: flex;
     align-items: center;
@@ -210,7 +206,6 @@ header {
 
 .btn-ep.locked:hover { background: #edf2f7; color: #a0aec0; }
 
-/* Box Pengaturan & About */
 .settings-box, .about-card {
     background: var(--bg-card);
     padding: 30px;
@@ -232,7 +227,6 @@ header {
 .about-card hr { margin: 20px 0; border: none; border-top: 1px solid #e2e8f0; }
 .about-card h3 { margin-bottom: 10px; }
 
-/* --- Kontak Developer via WhatsApp --- */
 .contact-developer-box {
     margin-top: 30px;
     padding-top: 20px;
@@ -253,7 +247,7 @@ header {
 .btn-whatsapp {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #25D366; /* Warna Khas WA */
+    background-color: #25D366;
     color: white;
     text-decoration: none;
     font-weight: 600;
@@ -265,12 +259,13 @@ header {
 .btn-whatsapp:hover {
     background-color: #128C7E;
     transform: translateY(-2px);
-    box-shadow: 0 6px 15px rgba(37, 211, 102, 0.4);
 }
 
-/* --- Perbaikan Total Halaman Baca (baca.html) --- */
+/* ==========================================
+   DESAIN LAPTOP UNTUK HALAMAN BACA (baca.html)
+   ========================================== */
 .read-container {
-    max-width: 740px; /* Lebar ideal membaca agar mata tidak lelah mondar-mandir */
+    max-width: 740px;
     margin: 40px auto 100px auto;
     padding: 0 25px;
 }
@@ -310,7 +305,6 @@ header {
     font-weight: 500;
 }
 
-/* Desain Area Teks Cerita */
 .novel-reading-wrapper {
     background: var(--bg-card);
     padding: 40px 50px;
@@ -337,17 +331,15 @@ header {
 
 .story-body p {
     margin-bottom: 1.8rem;
-    font-size: 18px; /* Default paling nyaman */
-    line-height: 1.8; /* Jarak baris renggang agar teks tidak menumpuk */
+    font-size: 18px;
+    line-height: 1.8;
     color: inherit;
     text-align: justify;
 }
 
-/* Kustomisasi Font untuk Membaca */
 .font-buku-serif { font-family: 'Georgia', serif !important; }
 .font-modern-sans { font-family: 'Poppins', sans-serif !important; }
 
-/* Kustomisasi Tema Spesifik Membaca */
 body.mode-malam {
     background-color: #121212 !important;
     color: #e0e0e0 !important;
@@ -364,24 +356,18 @@ body.mode-sepia .read-header, body.mode-sepia .novel-reading-wrapper {
     background-color: #fcf8ed !important;
 }
 
-/* ==========================================
-   LOGIKA RESPONSIF (DETEKSI HP & LAPTOP)
-   ========================================== */
-
-/* 1. Pengaturan Default untuk Menu HP (Disembunyikan dulu di Laptop) */
 .mobile-bottom-nav {
     display: none;
 }
 
-/* 2. Kodingan Khusus Ketika Dibuka di HANDPHONE (Layar Maksimal 768px) */
+/* ==========================================
+   KODINGAN KHUSUS TAMPILAN HP (FULL LAYAR MENTOK)
+   ========================================== */
 @media (max-width: 768px) {
-    
-    /* Sembunyikan Header Laptop */
     .desktop-header {
         display: none;
     }
 
-    /* Munculkan Menu Bawah ala Aplikasi HP */
     .mobile-bottom-nav {
         display: flex;
         justify-content: space-around;
@@ -394,10 +380,9 @@ body.mode-sepia .read-header, body.mode-sepia .novel-reading-wrapper {
         background-color: var(--bg-card);
         box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.1);
         z-index: 9999;
-        padding-bottom: 5px; /* Memberi ruang navigasi bawaan HP */
+        padding-bottom: 5px;
     }
 
-    /* Gaya Tombol Menu HP */
     .mobile-nav-link {
         background: none;
         border: none;
@@ -414,56 +399,39 @@ body.mode-sepia .read-header, body.mode-sepia .novel-reading-wrapper {
         transition: all 0.2s ease;
     }
 
-    .mobile-nav-icon {
-        font-size: 1.3rem;
-        margin-bottom: 2px;
-    }
-
-    /* Efek tombol ketika aktif di HP */
     .mobile-nav-link.active {
         color: #3182ce;
         transform: translateY(-2px);
     }
 
-    /* Sesuaikan kontainer utama agar tidak tertutup menu bawah HP */
+    /* ---- PERUBAHAN TOTAL JADI FULL SCREEN MENTOK DI HP ---- */
     .container {
-        margin: 20px auto 90px auto; 
-        padding: 0 15px;
+        margin: 15px auto 85px auto;
+        padding: 0 8px; /* Halaman utama dibuat lebih mepet ke pinggir */
     }
 
-    /* Menyesuaikan ukuran teks Hero Beranda di HP agar tidak kebesaran */
-    .hero-section h1 {
-        font-size: 2rem;
-    }
-    
-    .hero-section p {
-        font-size: 0.95rem;
+    .read-container {
+        margin: 0 auto 30px auto;
+        padding: 0 !important; /* Hapus semua space kosong di luar box baca */
     }
 
-    /* Mengubah Grid Novel menjadi 1 kolom saja di HP agar rapi vertikal */
-    .novel-grid {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-
-    /* Menyesuaikan Padding Halaman Membaca (baca.html) di HP */
     .novel-reading-wrapper {
-        padding: 25px 20px;
-        border-radius: 12px;
-    }
-
-    .meta-novel h1 {
-        font-size: 1.5rem;
+        padding: 20px 10px; /* Jarak tulisan ke pinggir layar HP dibuat super tipis (10px) */
+        border-radius: 0px; /* Menghilangkan lengkungan kotak agar menyatu penuh dengan layar HP */
+        box-shadow: none; /* Hapus bayangan agar terlihat bersih dan full */
     }
 
     .story-body p {
-        font-size: 16px; /* Ukuran font sedikit lebih kecil di HP agar pas */
+        font-size: 17px; /* Huruf sedikit dinaikkan agar makin puas dibaca */
         line-height: 1.7;
+        margin-bottom: 1.5rem;
+        text-align: left;
     }
-    
-    /* Mengatur Header Halaman Baca di HP agar ringkas */
-    .floating-settings select {
-        padding: 6px 8px;
-        font-size: 0.8rem;
-    }
+    /* ----------------------------------------------------- */
+
+    .hero-section h1 { font-size: 1.8rem; }
+    .hero-section p { font-size: 0.9rem; }
+    .novel-grid { grid-template-columns: 1fr; gap: 15px; }
+    .meta-novel h1 { font-size: 1.4rem; }
+    .floating-settings select { padding: 4px 6px; font-size: 0.75rem; }
 }
