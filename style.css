@@ -279,7 +279,8 @@ body {
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
     position: sticky;
     top: 0;
-    z-index: 100;
+    z-index: 1000;
+    transition: background 0.3s;
 }
 
 .btn-back-home {
@@ -303,6 +304,7 @@ body {
     color: var(--text-main);
     cursor: pointer;
     font-weight: 500;
+    transition: background 0.3s, color 0.3s, border-color 0.3s;
 }
 
 .novel-reading-wrapper {
@@ -340,28 +342,60 @@ body {
 .font-buku-serif { font-family: 'Georgia', serif !important; }
 .font-modern-sans { font-family: 'Poppins', sans-serif !important; }
 
+/* REVISI WARNA: Gunakan variabel agar background header atas otomatis ikut berubah gelap/sepia */
 body.mode-malam {
     background-color: #121212 !important;
     color: #e0e0e0 !important;
 }
-body.mode-malam .read-header, body.mode-malam .novel-reading-wrapper {
+body.mode-malam .read-header, body.mode-malam .novel-reading-wrapper, body.mode-malam .floating-settings button, body.mode-malam .floating-settings select {
     background-color: #1e1e1e !important;
+    color: #e0e0e0 !important;
+    border-color: #444444;
 }
 
 body.mode-sepia {
     background-color: #f7f1e3 !important;
     color: #433422 !important;
 }
-body.mode-sepia .read-header, body.mode-sepia .novel-reading-wrapper {
+body.mode-sepia .read-header, body.mode-sepia .novel-reading-wrapper, body.mode-sepia .floating-settings button, body.mode-sepia .floating-settings select {
     background-color: #fcf8ed !important;
+    color: #433422 !important;
+    border-color: #d1c7bd;
 }
 
 .mobile-bottom-nav {
     display: none;
 }
 
+.episode-navigation {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn-nav-ep {
+    flex: 1;
+    padding: 12px 20px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border: 2px solid var(--accent-color);
+    border-radius: 8px;
+    background: transparent;
+    color: var(--accent-color);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: center;
+}
+
+.btn-nav-ep:hover {
+    background: var(--accent-gradient);
+    color: white;
+    border-color: transparent;
+}
+
 /* ==========================================
-   KODINGAN KHUSUS TAMPILAN HP (FULL LAYAR MENTOK)
+   KODINGAN KHUSUS TAMPILAN HP (FIX HEADER BALAPAN)
    ========================================== */
 @media (max-width: 768px) {
     .desktop-header {
@@ -404,76 +438,78 @@ body.mode-sepia .read-header, body.mode-sepia .novel-reading-wrapper {
         transform: translateY(-2px);
     }
 
-    /* ---- PERUBAHAN TOTAL JADI FULL SCREEN MENTOK DI HP ---- */
     .container {
         margin: 15px auto 85px auto;
-        padding: 0 8px; /* Halaman utama dibuat lebih mepet ke pinggir */
+        padding: 0 8px;
     }
 
     .read-container {
         margin: 0 auto 30px auto;
-        padding: 0 !important; /* Hapus semua space kosong di luar box baca */
+        padding: 0 !important;
     }
 
     .novel-reading-wrapper {
-        padding: 20px 10px; /* Jarak tulisan ke pinggir layar HP dibuat super tipis (10px) */
-        border-radius: 0px; /* Menghilangkan lengkungan kotak agar menyatu penuh dengan layar HP */
-        box-shadow: none; /* Hapus bayangan agar terlihat bersih dan full */
+        padding: 20px 10px;
+        border-radius: 0px;
+        box-shadow: none;
     }
 
     .story-body p {
-        font-size: 17px; /* Huruf sedikit dinaikkan agar makin puas dibaca */
+        font-size: 17px;
         line-height: 1.7;
         margin-bottom: 1.5rem;
         text-align: left;
     }
-    /* ----------------------------------------------------- */
 
     .hero-section h1 { font-size: 1.8rem; }
     .hero-section p { font-size: 0.9rem; }
     .novel-grid { grid-template-columns: 1fr; gap: 15px; }
-    .meta-novel h1 { font-size: 1.4rem; }
-    .floating-settings select { padding: 4px 6px; font-size: 0.75rem; }
-}
-
-/* ==========================================
-   DESAIN TOMBOL NAVIGASI HALAMAN BACA
-   ========================================== */
-.episode-navigation {
-    display: flex;
-    justify-content: space-between;
-    gap: 15px;
-    margin-top: 20px;
-}
-
-.btn-nav-ep {
-    flex: 1;
-    padding: 12px 20px;
-    font-size: 0.95rem;
-    font-weight: 600;
-    border: 2px solid var(--accent-color);
-    border-radius: 8px;
-    background: transparent;
-    color: var(--accent-color);
-    cursor: pointer;
-    transition: all 0.2s ease;
-    text-align: center;
-}
-
-.btn-nav-ep:hover {
-    background: var(--accent-gradient);
-    color: white;
-    border-color: transparent;
-    box-shadow: 0 4px 12px rgba(49, 130, 206, 0.2);
-}
-
-/* Penyesuaian Tombol Navigasi saat di HP agar Full Lebar */
-@media (max-width: 768px) {
-    .episode-navigation {
-        padding: 0 5px;
+    
+    /* Perbaikan Jarak Judul di HP agar tidak tertutup header */
+    .meta-novel {
+        margin-top: 20px;
     }
-    .btn-nav-ep {
-        padding: 10px 10px;
+    .meta-novel h1 { font-size: 1.4rem; }
+    
+    .episode-navigation { padding: 0 5px; }
+    .btn-nav-ep { padding: 10px 10px; font-size: 0.85rem; }
+
+    /* ---- PERBAIKAN TOTAL HEADER DI HP (SESUAI FOTO KOMPLAIN) ---- */
+    .read-header {
+        padding: 12px 10px; /* Ditambah space-nya sedikit */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+        width: 100%;
+    }
+
+    .btn-back-home {
         font-size: 0.85rem;
+        white-space: nowrap;
+        padding-left: 5px; /* Dorong tombol kembali agar tidak kepotong pinggiran HP */
+        flex-shrink: 0;
+    }
+
+    .floating-settings {
+        display: flex;
+        gap: 4px;
+        flex-wrap: nowrap; /* Mencegah menu melorot jatuh ke bawah */
+        justify-content: flex-end;
+        flex-grow: 1;
+    }
+
+    .floating-settings button {
+        padding: 6px 6px;
+        font-size: 0.75rem;
+        min-width: 30px;
+    }
+
+    .floating-settings select {
+        padding: 6px 4px;
+        font-size: 0.7rem;
+        max-width: 85px; /* Sedikit diperkecil agar pas berjejer rapi di semua tipe HP */
+        text-overflow: ellipsis;
     }
 }
