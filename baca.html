@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membaca Novel - BacaNovelLordDream</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header Panel Pengaturan Membaca -->
+    <header class="read-header">
+        <a href="index.html" class="btn-back-home">⬅ Beranda</a>
+        
+        <div class="floating-settings">
+            <!-- Ukuran Huruf -->
+            <button onclick="adjustFont('-')">A-</button>
+            <button onclick="adjustFont('+')">A+</button>
+            
+            <!-- Jenis Huruf -->
+            <select id="fontStyle" onchange="changeReaderFont()">
+                <option value="modern">Font Modern</option>
+                <option value="buku">Font Buku (Serif)</option>
+            </select>
+
+            <!-- Warna Tampilan -->
+            <select id="colorTheme" onchange="changeReaderTheme()">
+                <option value="terang">Mode Terang</option>
+                <option value="malam">Mode Malam</option>
+                <option value="sepia">Mode Sepia</option>
+            </select>
+        </div>
+    </header>
+
+    <!-- Area Membaca Utama -->
+    <div class="read-container">
+        <main class="novel-reading-wrapper">
+            
+            <div class="read-container">
+        <main class="novel-reading-wrapper">
+            
+            <div class="meta-novel">
+                <!-- Judul dan Episode akan diisi otomatis oleh JavaScript -->
+                <h1 id="novelTitle">Memuat Judul Novel...</h1>
+                <div class="chapter-title" id="chapterTitle">Memuat Episode...</div>
+            </div>
+            
+            <hr style="border: none; border-top: 1px solid #e2e8f0; margin-bottom: 30px;">
+
+            <!-- Isi Cerita Otomatis Masuk ke Sini -->
+            <article class="story-body" id="storyContent">
+                <!-- Paragraf cerita akan muncul di sini secara dinamis -->
+            </article>
+
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
