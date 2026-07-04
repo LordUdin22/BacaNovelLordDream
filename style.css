@@ -229,40 +229,6 @@ body {
 .about-card hr { margin: 20px 0; border: none; border-top: 1px solid #e2e8f0; }
 .about-card h3 { margin-bottom: 10px; }
 
-.contact-developer-box {
-    margin-top: 30px;
-    padding-top: 20px;
-    border-top: 1px dashed #cbd5e0;
-}
-
-.contact-developer-box h4 {
-    margin-bottom: 8px;
-    color: var(--text-main);
-}
-
-.contact-developer-box p {
-    font-size: 0.9rem;
-    color: var(--text-muted);
-    margin-bottom: 15px;
-}
-
-.btn-whatsapp {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #25D366;
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(37, 211, 102, 0.3);
-    transition: all 0.2s ease;
-}
-
-.btn-whatsapp:hover {
-    background-color: #128C7E;
-    transform: translateY(-2px);
-}
-
 /* ==========================================
    DESAIN LAPTOP UNTUK HALAMAN BACA (baca.html)
    ========================================== */
@@ -514,4 +480,31 @@ body.mode-sepia .read-header, body.mode-sepia .novel-reading-wrapper, body.mode-
         max-width: 85px; /* Sedikit diperkecil agar pas berjejer rapi di semua tipe HP */
         text-overflow: ellipsis;
     }
+}
+
+.contact-developer-box {
+    margin-top: 20px;
+    padding: 20px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border-left: 4px solid #2b6cb0;
+    text-align: center;
+}
+
+.status-badge {
+    margin: 15px 0;
+    font-weight: 600;
+    color: #2b6cb0;
+}
+
+.info-footer {
+    font-size: 0.9em;
+    color: #4a5568;
+    line-height: 1.6;
+}
+
+.signature {
+    margin-top: 10px;
+    font-style: italic;
+    font-weight: bold;
 }
