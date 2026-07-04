@@ -278,7 +278,127 @@ const novelDatabase = {
                     "Kali ini, alunan musiknya terasa jauh lebih megah dan emosional, seolah-olah pemuda itu sedang menuangkan seluruh isi hatinya ke dalam setiap gesekan dawai kayu biola tersebut. Kayla kembali terpaku di tempatnya berdiri, air mata kekaguman perlahan menetes di pipinya karena melodi ini merambat masuk ke dalam sukmanya, menghidupkan kembali inspirasi musiknya yang sempat mati. Dia merasakan ada sebuah ikatan batin yang tak kasat mata mulai terajut di antara musik biola pemuda itu dan detak jiwanya sendiri.",
                     "Saat melodi mencapai puncaknya di bawah rintik hujan malam yang kian menderu, pemuda itu menghentikan gesekannya dengan satu nada panjang yang bergetar lembut di udara. Dia menurunkan biolanya, menatap lurus ke dalam manik mata Kayla dengan pandangan yang penuh arti di bawah temaram lampu dermaga yang mulai menyala redup. Pemuda itu mengulurkan tangan kirinya ke arah Kayla sembari berkata, \"Namaku Arya. Mari kita selesaikan komposisi simfoni hujan ini bersama-sama, Kayla.\""
                 ]
-            }
+            },
+            "3": { 
+            "title": "Episode 3: Resonansi Pertemuan", 
+            "content": [
+                "Pertemuan di dermaga itu bukan sekadar kebetulan, melainkan awal dari ikatan yang mulai mengikat batin Kayla dan Arya. Setelah simfoni hujan berakhir, mereka duduk di kedai kopi kayu kecil di pinggir pantai, berbagi cerita tentang mimpi dan kegagalan yang mereka alami. Arya mengakui bahwa biolanya adalah satu-satunya warisan berharga dari ayahnya yang hilang di laut bertahun-tahun silam. Kayla, di sisi lain, menceritakan tentang kebuntuan nada yang selama ini menghantui karya musiknya di kampus.",
+                "Ada getaran aneh yang terasa di udara setiap kali mereka bertukar pandang di bawah temaram lampu dermaga yang bergoyang ditiup angin. Tanpa sadar, mereka mulai menggabungkan notasi dari buku catatan Kayla dengan melodi biola Arya untuk menciptakan sesuatu yang baru. Malam itu, untuk pertama kalinya, notasi musik yang semula mati di atas kertas mulai memiliki nyawa dan harmoni yang memikat. Hujan masih setia mengguyur, namun suasana di dalam kedai terasa hangat oleh tawa dan antusiasme dua seniman muda tersebut.",
+                "Arya bercerita bahwa dia sering memainkan biolanya di berbagai sudut kota Bandung setiap kali dia merasa kehilangan arah hidupnya. Kayla terpukau dengan filosofi Arya tentang musik; bahwa nada yang paling indah sering kali lahir dari kesedihan yang terdalam. Mereka menghabiskan waktu berjam-jam hingga penjaga kedai harus memberi tahu bahwa mereka harus segera tutup. Saat berpisah di bawah halte yang basah, mereka berjanji untuk bertemu kembali di tempat yang sama besok sore untuk melanjutkan simfoni mereka.",
+                "Kayla tidak bisa tidur sepanjang malam; pikirannya dipenuhi oleh resonansi nada biola Arya yang terus terngiang di dalam kepalanya. Dia mulai menuliskan melodi-melodi baru dengan semangat yang belum pernah ia rasakan sebelumnya, merasa bahwa inspirasinya kini telah kembali sepenuhnya. Di sisi lain, Arya menatap biolanya dengan tatapan yang menyiratkan harapan baru, seolah sosok Kayla adalah kepingan puzzle yang selama ini ia cari.",
+                "Keesokan harinya, Kayla datang ke kampus dengan senyum yang terus mengembang, membuat teman-teman sekelasnya merasa heran akan perubahan drastisnya. Dia segera menunjukkan draf simfoni yang mereka buat bersama kepada dosen pembimbingnya, dan respon sang dosen sangatlah positif. Dosen itu menyatakan bahwa ada kekuatan emosional yang sangat jujur dan kuat di dalam komposisi musik yang Kayla bawa hari ini.",
+                "Arya pun merasakan perubahan yang sama, dia tidak lagi merasa sendirian saat harus menanggung beban masa lalunya yang kelam sendirian. Dia merasa ada seseorang yang bersedia mendengarkan melodi hatinya tanpa perlu menghakiminya sedikit pun dari sudut pandang mana pun. Setiap kali dia memegang bow biolanya, ia membayangkan wajah Kayla yang penuh semangat saat mereka berdiskusi tentang musik.",
+                "Pertemuan mereka di kedai dermaga menjadi rutin, bukan lagi karena surat misterius, melainkan karena rasa saling butuh untuk menciptakan karya seni. Mereka mulai berani bermimpi untuk menggelar konser kecil di sebuah galeri seni tua milik sahabat Kayla yang sudah lama terbengkalai. Keberanian itu tumbuh subur seiring dengan semakin seringnya mereka menghabiskan waktu bersama di bawah rintik hujan kota Bandung.",
+                "Namun, di balik kebahagiaan tersebut, ada rahasia tentang hilangnya ayah Arya yang perlahan mulai terungkap melalui petunjuk kecil dari surat-surat tua. Kayla berjanji akan membantu Arya menelusuri jejak ayahnya setelah tugas akhir mereka selesai, menciptakan janji setia yang semakin mempererat hubungan mereka. Mereka berdua tidak menyadari bahwa simfoni yang mereka susun adalah kunci dari sebuah jawaban atas kehilangan besar di masa lalu.",
+                "Dunia di sekitar mereka seolah mendukung pertemuan tersebut, memberikan suasana yang selalu senada dengan apa yang sedang mereka rasakan setiap hari. Rasa takut akan kegagalan mulai pudar, digantikan oleh keyakinan bahwa mereka mampu melakukan apa pun selama mereka bersama dan saling mendukung.",
+                "Senja hari berikutnya, mereka kembali berdiri di dermaga, kali ini bukan karena keraguan, melainkan untuk menegaskan kesepakatan bahwa mereka akan menyelesaikan simfoni ini sampai titik nadanya yang terakhir."
+            ]
+        },
+        "4": { 
+            "title": "Episode 4: Rahasia di Balik Nada", 
+            "content": [
+                "Pencarian terhadap jejak ayah Arya membawa mereka ke sebuah perpustakaan kota tua yang menyimpan arsip-arsip sejarah tentang seniman-seniman lokal terdahulu. Di antara debu dan tumpukan buku, Kayla menemukan sebuah foto tua yang menampilkan seorang pria memegang biola yang persis sama dengan milik Arya.",
+                "Foto itu tertanggal dua puluh tahun yang lalu, dan di baliknya tertulis sebuah kode notasi musik yang sangat rumit dan penuh dengan misteri. Arya menatap foto itu dengan napas tertahan, menyadari bahwa ayahnya mungkin saja menyembunyikan sesuatu yang sangat besar melalui melodi-melodi ciptaannya.",
+                "Mereka mulai memainkan kode notasi tersebut dengan kombinasi biola dan piano, dan hasilnya adalah sebuah suara yang sangat aneh serta menggema. Suara itu bukan sekadar musik, melainkan sebuah frekuensi yang mampu memicu mekanisme tersembunyi di dalam ruangan tua tempat mereka berlatih selama ini.",
+                "Dinding ruangan tersebut perlahan terbuka, menampilkan sebuah brankas kuno yang berisi tumpukan surat dan partitur musik yang belum pernah dipublikasikan oleh dunia. Arya membuka surat-surat tersebut satu demi satu dengan tangan yang gemetar, menemukan pengakuan ayahnya tentang sebuah rahasia besar di balik simfoni itu.",
+                "Ternyata, ayah Arya bukanlah sekadar seniman, melainkan seorang detektif musik yang mencoba melindungi artefak penting melalui nada-nada simfoni ciptaannya sendiri. Simfoni yang sedang disusun oleh Kayla dan Arya adalah bagian terakhir dari puzzle yang selama ini dicari oleh banyak orang selama puluhan tahun.",
+                "Kayla merasa merinding saat menyadari bahwa setiap nada yang mereka mainkan memiliki implikasi nyata yang bisa mengubah jalan hidup orang-orang di sekitar mereka. Mereka kini tidak hanya sedang mengerjakan tugas akhir, tetapi sedang melindungi warisan berharga yang bisa berdampak pada banyak orang.",
+                "Ketegangan mulai menyelimuti hubungan mereka, karena ada pihak-pihak misterius yang mulai memantau pergerakan mereka di balik bayangan kota Bandung yang tenang. Arya memutuskan untuk merahasiakan penemuan ini dari siapa pun, bahkan dari sahabat terdekatnya, agar Kayla tetap berada dalam kondisi yang aman.",
+                "Namun, Kayla menolak untuk membiarkan Arya menghadapi ancaman ini sendirian, menegaskan bahwa mereka adalah tim yang telah terikat oleh simfoni yang mereka ciptakan. Keberanian Kayla membuat Arya merasa yakin bahwa dia memiliki seseorang yang benar-benar bisa dia andalkan dalam situasi yang sangat berbahaya ini.",
+                "Malam itu, mereka berlatih dengan sangat intensif, mencoba mengintegrasikan semua rahasia yang mereka temukan ke dalam simfoni yang sedang disusun secara rapi.",
+                "Hujan turun kembali dengan sangat deras, seolah-olah langit pun ingin menjadi saksi bisu atas rahasia besar yang perlahan mulai terkuak dari masa lalu Arya."
+            ]
+        },
+        "5": { 
+            "title": "Episode 5: Konser di Bawah Hujan", 
+            "content": [
+                "Persiapan untuk konser kecil di galeri seni tua semakin memuncak, dengan poster-poster sederhana yang mulai mereka sebar di sekitar kampus dan kafe langganan. Arya merasa gugup, namun Kayla selalu hadir untuk memberinya dukungan mental setiap kali keraguan muncul di dalam pikiran pemuda tersebut di tengah persiapan.",
+                "Galeri tua itu disulap menjadi tempat yang sangat magis dengan lampu-lampu gantung yang remang dan dekorasi bunga-bunga kering yang menambah kesan estetik klasik. Banyak orang mulai berdatangan, dari mulai mahasiswa seni hingga orang-orang asing yang tertarik dengan alunan musik yang sayup-sayup terdengar dari arah galeri.",
+                "Tepat saat konser akan dimulai, hujan turun kembali, memberikan sentuhan atmosfer yang sempurna bagi simfoni yang akan mereka tampilkan di panggung tersebut malam ini. Saat mereka mulai memainkan nada pertama, seluruh ruangan hening seketika, terhipnotis oleh harmoni biola Arya dan piano yang dimainkan dengan sangat indah oleh Kayla.",
+                "Setiap nada yang keluar seolah bercerita tentang kehilangan, pencarian, dan penemuan kembali cinta di tengah-tengah badai kehidupan yang tidak pernah menentu arahnya.",
+                "Di tengah permainan musik, Arya melihat sekelompok pria berjas gelap yang berdiri di belakang ruangan, membuat hatinya sempat berdegup kencang karena rasa waspada.",
+                "Namun, saat melihat Kayla yang tersenyum tenang di depan piano, Arya membuang jauh-jauh rasa takutnya dan melanjutkan gesekan biolanya dengan perasaan yang sangat mendalam.",
+                "Musik mereka seolah menjadi perisai yang melindungi mereka dari ancaman apa pun yang mungkin datang saat konser sedang berlangsung dengan sangat emosional.",
+                "Konser itu menjadi titik balik bagi mereka berdua, memberikan pengakuan bahwa mereka bukan sekadar pemain musik, melainkan penyampai pesan lewat harmoni.",
+                "Di akhir konser, tepuk tangan penonton pecah dengan sangat meriah, membuktikan bahwa simfoni mereka benar-benar berhasil menyentuh jiwa siapa pun yang mendengarkannya.",
+                "Kayla dan Arya saling berpandangan dengan kebahagiaan yang tak terlukiskan, menyadari bahwa mereka baru saja melewati salah satu momen paling berharga dalam hidup mereka."
+            ]
+        },
+        "6": { 
+            "title": "Episode 6: Pertengkaran Nada", 
+            "content": [
+                "Setelah kesuksesan konser, muncul tekanan dari pihak luar yang ingin mengambil alih karya mereka untuk kepentingan komersial yang tidak bertanggung jawab oleh pihak lain.",
+                "Arya menolak keras tawaran tersebut karena takut rahasia ayahnya akan bocor dan disalahgunakan oleh orang-orang yang hanya mengincar keuntungan materi belaka.",
+                "Namun, Kayla merasa ini adalah kesempatan emas untuk membawa karya mereka ke tingkat nasional dan dikenal oleh lebih banyak orang di seluruh penjuru negeri.",
+                "Pertengkaran pun tak terelakkan; mereka berselisih paham tentang visi masa depan dari simfoni yang selama ini mereka bangun dengan penuh keringat dan air mata.",
+                "Kayla merasa Arya terlalu paranoid, sementara Arya merasa Kayla terlalu naif dalam memandang dunia yang keras dan penuh dengan kepentingan terselubung tersebut.",
+                "Hubungan mereka menjadi dingin, dan mereka sempat berhenti berlatih musik bersama selama beberapa hari, membuat suasana di antara mereka menjadi sangat sunyi dan kaku.",
+                "Kayla akhirnya menyadari bahwa Arya melakukan semua itu demi melindunginya, namun dia tetap merasa bahwa kejujuran adalah jalan yang terbaik dalam menghadapi masalah.",
+                "Arya mendatangi rumah Kayla pada suatu malam untuk meminta maaf, mengakui bahwa dia seharusnya lebih terbuka sejak awal tentang segala ketakutannya selama ini.",
+                "Mereka akhirnya berbaikan dengan sebuah pelukan hangat, menyadari bahwa ego pribadi tidak boleh merusak keindahan simfoni yang telah mereka bangun bersama.",
+                "Keduanya kembali ke meja latihan dengan tekad yang lebih kuat untuk tetap menjaga simfoni mereka tetap murni dan bebas dari kepentingan siapa pun."
+            ]
+        },
+        "7": { 
+            "title": "Episode 7: Harmoni yang Tersembunyi", 
+            "content": [
+                "Mereka memutuskan untuk merekam simfoni tersebut secara diam-diam agar karya itu tetap terjaga keasliannya dan tidak bisa diubah oleh siapa pun di masa depan.",
+                "Dalam proses rekaman, mereka menemukan bahwa ada satu nada rahasia yang selama ini belum pernah mereka mainkan karena tingkat kesulitannya yang luar biasa.",
+                "Nada tersebut adalah kunci utama untuk menyatukan semua potongan puzzle rahasia yang ditinggalkan oleh ayah Arya di dalam partitur-partitur musik kuno tersebut.",
+                "Setelah berlatih berkali-kali hingga jari-jari mereka lecet, akhirnya mereka berhasil membunyikan nada tersebut dengan harmoni yang sangat indah dan sempurna sekali.",
+                "Suara itu memicu reaksi yang lebih besar daripada sebelumnya, di mana sebuah peta lokasi tersembunyi muncul dari pantulan cahaya di dinding galeri tua tersebut.",
+                "Peta itu menunjukkan lokasi di mana ayah Arya terakhir kali terlihat sebelum menghilang secara misterius dua puluh tahun yang lalu di sebuah gunung terpencil.",
+                "Mereka memutuskan untuk melakukan perjalanan ke gunung tersebut segera setelah urusan kampus Kayla selesai, sebagai langkah terakhir dalam pencarian panjang selama ini.",
+                "Persiapan pun dilakukan dengan matang, termasuk membekali diri dengan segala catatan dan dokumen yang mereka temukan di brankas tersembunyi di dalam galeri seni.",
+                "Mereka merasa bahwa jawaban atas segala misteri akan segera terungkap di puncak gunung tersebut, dan itu memberikan keberanian bagi mereka berdua.",
+                "Simfoni hujan kini bukan lagi sekadar lagu, melainkan sebuah kompas yang menuntun mereka pada kebenaran yang selama ini terkubur dalam-dalam di masa lalu."
+            ]
+        },
+        "8": { 
+            "title": "Episode 8: Panggung Terakhir", 
+            "content": [
+                "Perjalanan ke gunung terpencil itu tidak mudah, dengan medan yang terjal dan cuaca yang selalu berubah secara ekstrem di sepanjang rute pendakian mereka.",
+                "Kayla dan Arya harus saling membantu setiap kali salah satu dari mereka merasa lelah atau kesulitan menempuh jalur yang sangat menantang bagi pendaki pemula.",
+                "Di tengah jalan, mereka sempat terperangkap badai yang membuat mereka harus berlindung di sebuah gua kecil selama satu malam penuh yang sangat dingin.",
+                "Dalam keadaan terisolasi, mereka semakin dekat dan mengungkapkan perasaan satu sama lain yang selama ini hanya bisa tersampaikan lewat alunan musik indah mereka.",
+                "Arya berjanji bahwa apa pun hasil pencarian ini nanti, dia akan selalu berada di samping Kayla, apa pun tantangan yang akan mereka hadapi di depan.",
+                "Pagi harinya, cuaca membaik dan mereka sampai di lokasi yang ditunjukkan oleh peta rahasia tersebut, sebuah tempat yang tampak seperti reruntuhan studio musik tua.",
+                "Di dalam studio itu, mereka menemukan sebuah instrumen musik kuno yang terhubung dengan sistem perekam suara tua yang masih bisa berfungsi dengan baik sekali.",
+                "Arya memainkan simfoni hujan mereka di sana, dan rekaman suara ayahnya secara otomatis muncul, memberikan pesan terakhir yang sangat menyentuh bagi anaknya sendiri.",
+                "Ayah Arya ternyata selama ini bukan hilang, melainkan sengaja menjauh untuk melindungi keluarganya dari ancaman orang-orang yang menginginkan kekuatan musiknya.",
+                "Pesan itu membawa kedamaian bagi jiwa Arya yang selama puluhan tahun tersiksa oleh ketidakpastian akan nasib ayahnya yang sempat dianggap telah meninggal dunia."
+            ]
+        },
+        "9": { 
+            "title": "Episode 9: Melodi Perpisahan", 
+            "content": [
+                "Namun, pesan itu juga menjelaskan bahwa ayahnya kini telah berpindah tempat ke luar negeri dan sedang berada dalam kondisi kesehatan yang cukup kritis saat ini.",
+                "Arya harus memutuskan antara menetap bersama Kayla atau pergi menyusul ayahnya untuk memberikan salam perpisahan yang layak sebelum semuanya menjadi terlambat bagi mereka.",
+                "Kayla dengan sangat bijak mendukung Arya untuk pergi menyusul ayahnya, meskipun itu artinya mereka harus berpisah untuk waktu yang cukup lama ke depannya.",
+                "Momen perpisahan di bandara terasa sangat berat, dengan simfoni hujan yang terus mengiringi mereka berdua sebagai kenangan akan pertemuan pertama mereka dahulu.",
+                "Mereka berjanji untuk tetap berkomunikasi lewat surat dan musik, menjaga agar melodi mereka tidak hilang meski dipisahkan oleh jarak yang sangat jauh sekali.",
+                "Arya pergi dengan membawa biola warisan ayahnya, sementara Kayla tinggal di Bandung untuk melanjutkan mimpinya dengan semangat yang diberikan oleh Arya selama ini.",
+                "Hari-hari setelah kepergian Arya terasa sangat sunyi bagi Kayla, namun dia selalu menyibukkan diri dengan berlatih piano untuk mempersiapkan konser tunggal pertamanya nanti.",
+                "Surat-surat dari Arya menjadi pelipur lara, menceritakan tentang kondisi ayahnya yang mulai membaik berkat kehadiran anaknya yang sudah lama tidak ditemuinya itu.",
+                "Setiap malam, Kayla memainkan simfoni mereka, membayangkan Arya sedang memainkan biolanya di belahan dunia lain pada waktu yang sama dengannya sekarang.",
+                "Mereka belajar bahwa cinta bukan tentang selalu bersama dalam satu tempat, melainkan tentang tetap memiliki satu harmoni yang sama meski dipisahkan oleh samudra luas."
+            ]
+        },
+        "10": { 
+            "title": "Episode 10: Simfoni yang Sempurna (TAMAT)", 
+            "content": [
+                "Dua tahun telah berlalu sejak perpisahan di bandara, dan kini Kayla telah menjadi seorang pianis sukses yang karyanya dikenal secara luas oleh banyak orang.",
+                "Arya akhirnya kembali ke Indonesia setelah ayahnya pulih sepenuhnya, membawa kembali karya-karya baru yang mereka susun bersama selama terpisah jarak dua tahun.",
+                "Mereka mengadakan konser reuni besar di gedung pertunjukan musik megah di kota Bandung, dihadiri oleh banyak orang yang mendukung perjalanan musik mereka berdua.",
+                "Saat mereka berdiri di atas panggung bersama, penonton terdiam menyaksikan perpaduan antara suara piano Kayla dan biola Arya yang sangat emosional sekali.",
+                "Simfoni hujan yang mereka mainkan kini terdengar jauh lebih matang, menceritakan seluruh perjalanan cinta dan pencarian yang mereka lalui dari titik awal.",
+                "Di tengah konser, Arya memberikan kejutan dengan melamar Kayla di atas panggung di depan ribuan penonton yang bersorak gembira menyambut momen spesial tersebut.",
+                "Kayla menerima lamaran tersebut dengan penuh air mata bahagia, menyempurnakan simfoni hidup mereka menjadi sebuah janji suci untuk menua bersama selamanya.",
+                "Ayah Arya hadir di barisan penonton paling depan, memberikan senyuman bangga melihat anaknya telah menemukan kebahagiaan sejati bersama sosok yang tepat.",
+                "Simfoni tersebut ditutup dengan tepuk tangan yang meriah, menjadi penanda bahwa perjalanan mereka telah sampai pada klimaks yang paling indah di hidup mereka.",
+                "Hujan turun kembali di luar gedung saat mereka meninggalkan panggung, namun kali ini bukan hujan kesedihan, melainkan hujan berkah bagi simfoni mereka yang telah menjadi sempurna (TAMAT)."
+            ]
+        }
         }
     }
 };
@@ -317,7 +437,7 @@ window.onload = function() {
 
             // Logika Mengubah Tombol Next Menjadi Tombol Selesai Khusus Episode 10
             const nextButton = document.getElementById('btnNext');
-            if (currentNovelId === "1" && currentEpisodeId === 10) {
+            if (currentEpisodeId === 10) {
                 nextButton.innerText = "🏁 Tamat / Kembali Ke Koleksi Novel";
                 nextButton.style.background = "linear-gradient(135deg, #2ecc71, #27ae60)";
                 nextButton.style.color = "white";
@@ -343,8 +463,8 @@ window.onload = function() {
 };
 
 function navigateEpisode(direction) {
-    // Jalur khusus jika pembaca mengklik tombol tamat di Episode 10 Novel 1
-    if (currentNovelId === "1" && currentEpisodeId === 10 && direction === 'next') {
+    // Jalur khusus jika pembaca mengklik tombol tamat di Episode 10 (Novel 1 ATAU Novel 2)
+    if (currentEpisodeId === 10 && direction === 'next') {
         window.location.href = "novel.html";
         return;
     }
