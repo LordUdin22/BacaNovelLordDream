@@ -508,3 +508,20 @@ body.mode-sepia .read-header, body.mode-sepia .novel-reading-wrapper, body.mode-
     font-style: italic;
     font-weight: bold;
 }
+
+body.sepia-theme {
+    background-color: #f4ecd8; /* Warna kertas tua */
+    color: #5b4636;           /* Cokelat gelap untuk teks */
+}
+
+body.sepia-theme .settings-box, 
+body.sepia-theme .novel-card,
+body.sepia-theme .contact-developer-box {
+    background-color: #eaddc0;
+    color: #5b4636;
+}
+
+body.sepia-theme .desktop-header {
+    background-color: #eaddc0;
+    border-bottom: 1px solid #d2c4a9;
+}

@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="style.css?v=1.2">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
+<script>
+    // Pengecekan instan saat halaman dimuat
+    if (localStorage.getItem('webTheme') === 'dark') {
+        document.body.classList.add('dark-theme');
+    }
+</script>
 <body>
     <header class="desktop-header">
         <div class="logo">👑 BacaNovelLordDream</div>
@@ -33,7 +39,13 @@
                 <select id="globalTheme" onchange="changeGlobalTheme()">
                     <option value="light">Mode Terang (Minimalis Blue)</option>
                     <option value="dark">Mode Gelap (Premium Dark)</option>
+                    <option value="sepia">Mode Sepia (Kertas Klasik)</option>
                 </select>
+                
+                <script>
+                    // Setel nilai dropdown sesuai tema yang tersimpan
+                    document.getElementById('globalTheme').value = localStorage.getItem('webTheme') || 'light';
+                </script>
             </div>
             <div class="contact-developer-box">
                 <h4>Status Pengembangan</h4>

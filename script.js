@@ -495,12 +495,28 @@ function comingSoon() {
     alert("Akan segera hadir, masih disiapkan oleh developer 🙏");
 }
 
+// Cek tema yang tersimpan setiap kali halaman dimuat
+(function() {
+    const savedTheme = localStorage.getItem('webTheme');
+if (savedTheme === 'dark') document.body.classList.add('dark-theme');
+if (savedTheme === 'sepia') document.body.classList.add('sepia-theme');
+    }
+)();
+
+// Fungsi untuk mengganti tema
 function changeGlobalTheme() {
     const themeValue = document.getElementById('globalTheme').value;
+    // Hapus semua kelas tema dulu
+    document.body.classList.remove('dark-theme', 'sepia-theme');
+    
     if (themeValue === 'dark') {
         document.body.classList.add('dark-theme');
+        localStorage.setItem('webTheme', 'dark');
+    } else if (themeValue === 'sepia') {
+        document.body.classList.add('sepia-theme');
+        localStorage.setItem('webTheme', 'sepia');
     } else {
-        document.body.classList.remove('dark-theme');
+        localStorage.setItem('webTheme', 'light');
     }
 }
 
