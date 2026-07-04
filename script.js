@@ -98,7 +98,7 @@ const novelDatabase = {
                 "title": "Episode 1: Arloji yang Berdetak Terbalik",
                 "content": [
                     "Malam itu hujan turun sangat lebat di sudut kota, membasahi jalanan aspal sepi yang hanya diterangi oleh temaram lampu jalan. Kael, seorang mahasiswa tingkat akhir yang kelelahan dengan rutinitas hariannya, sedang merapikan barang-barang di gudang tua milik almarhum kakeknya. Tempat itu penuh dengan barang antik, bau kertas usang, dan debu tebal yang beterbangan setiap kali angin berembus dari celah ventilasi. Di antara tumpukan buku tua berjejer rapi, sebuah kotak kayu kecil dengan ukiran geometris yang rumit di bagian atasnya mendadak menarik perhatian mata Kael.",
-                    "Rasa penasaran mengalahkan rasa lelahnya. Kael mendekati meja kayu berdebu itu dan meniup lapisan kotoran yang menutupi permukaan kotak. Ketika kotak kayu itu dibuka dengan derit pelan, sebuah arloji emas dengan rantai perak berkilau terbaring di atas kain beludru merah yang mulai memudar warnanya. Keanehan langsung terasa saat Kael memperhatikannya lebih dekat; jarum detik pada arloji tersebut tidak berputar ke kanan seperti jam normal pada umumnya, melainkan berputar berlawanan arah jarum jam dengan detak yang sangat pelan namun bergaung kuat.",
+                    "Rasa penasaran mengalahkan rasa lelahnya. Kael mendekati meja kayu berdebu itu dan mehndiup lapisan kotoran yang menutupi permukaan kotak. Ketika kotak kayu itu dibuka dengan derit pelan, sebuah arloji emas dengan rantai perak berkilau terbaring di atas kain beludru merah yang mulai memudar warnanya. Keanehan langsung terasa saat Kael memperhatikannya lebih dekat; jarum detik pada arloji tersebut tidak berputar ke kanan seperti jam normal pada umumnya, melainkan berputar berlawanan arah jarum jam dengan detak yang sangat pelan namun bergaung kuat.",
                     "Tanpa berpikir panjang dan seolah-olah digerakkan oleh kekuatan gaib yang tak kasat mata, Kael mengambil arloji tersebut dan menyentuh tombol pemutar kecil di sisi kanannya. Begitu tombol itu ditekan dengan bunyi klik yang tajam, gelombang getaran aneh langsung merambat melalui telapak tangan menuju ke seluruh tubuh. Detik itu juga, suara gemuruh rintik hujan yang semula sangat bising menghantam atap seng gudang tua mendadak lenyap total, menyisakan keheningan yang luar biasa sunyi dan mencekam di dalam ruangan.",
                     "Kael yang merasa kebingungan segera melangkah lebar menuju jendela kaca buram di sudut gudang dan menyekanya dengan telapak tangan agar bisa melihat ke arah luar. Matanya terbelalak sempurna, dipenuhi rasa tidak percaya atas apa yang sedang disaksikan oleh penglihatannya sendiri. Di luar sana, air hujan yang seharusnya jatuh menghantam bumi justru melayang diam dan menggantung kaku di udara bagaikan ribuan kristal bening yang dipajang. Seekor burung gereja yang sedang terbang melintasi halaman juga tampak membeku di udara dengan sayap yang mengepak setengah terbuka.",
                     "Dunia di sekitarnya benar-benar telah berhenti bergerak sepenuhnya, terkunci dalam satu fragmen waktu yang membeku akibat ulah arloji misterius tersebut. Jantung Kael berdegup dua kali lebih kencang, rasa takut dan takjub bercampur aduk menjadi satu di dalam dadanya membuat ia hampir lupa cara bernapas. Dengan tangan yang gemetar hebat, dia mengantongi arloji emas itu lalu perlahan memutar gagang pintu gudang untuk melangkah keluar, ingin memastikan apakah fenomena gila ini juga menimpa seluruh area kota.",
@@ -138,6 +138,21 @@ const novelDatabase = {
                     "Sedetik kemudian, gravitasi seolah ditarik paksa dari bawah tubuhnya, membuat Kael merasa seperti jatuh bebas ke dalam jurang yang sangat dalam. Suara teriakan mekanis dari penjaga bertopeng besi itu perlahan menjauh dan meredup, tergantikan oleh suara dengungan frekuensi tinggi yang membuat telinganya berdenging hebat. Kesadaran Kael mulai menipis saat tubuhnya terus terseret masuk ke dalam pusaran ruang dan waktu yang tak terkendali.",
                     "Saat matanya terpejam sepenuhnya karena tidak kuat menahan tekanan energi, Kael merasakan tubuhnya mendarat keras di atas permukaan yang empuk. Dia tersedak, menghirup udara segar yang tidak lagi berbau debu gudang atau belerang, melainkan aroma minyak wangi kamarnya sendiri. Namun, saat dia membuka mata, dia tidak berada di kamarnya; dia terbaring di tengah lapangan rumput luas di bawah langit malam yang memiliki dua buah bulan berwarna merah darah."
                 ]
+            },
+            "4": {
+                "title": "Episode 4: Langit Dua Bulan",
+                "content": [
+                    "Kael terbatuk-batuk, berusaha mengeluarkan sisa rasa hampa udara yang masih mengganjal di paru-parunya. Aroma rumput basah yang asing menusuk indra penciumannya, sangat jauh berbeda dari bau debu kertas dari gudang tua kakeknya yang barusan dia tempati. Dengan kedua tangan yang masih gemetar, dia memaksakan dirinya untuk bangkit berdiri, sementara arloji emas di genggamannya kini terasa dingin beku seperti es balok.",
+                    "Saat pandangannya mulai terfokus, Kael langsung tersentak mundur hingga kakinya tersandung akar pohon yang mencuat dari permukaan tanah. Di atas kepalanya, terhampar langit malam yang sangat aneh dengan jutaan bintang asing keperakan, didampingi oleh dua buah bulan raksasa berwarna merah darah yang bertengger berdampingan. Cahaya kemerahan dari angkasa itu memantul di hamparan rumput luas, mengubah pemandangan malam di sekitarnya menjadi seperti hamparan lautan darah yang sunyi.",
+                    "Kael meraba saku jaketnya dengan panik, mencari ponselnya untuk memeriksa sinyal GPS, namun benda elektronik itu mati total dengan layar yang retak seribu akibat tekanan energi tadi. Keheningan di tempat ini terasa sangat pekat dan menekan, tidak ada suara jangkrik, tidak ada desau angin malam, bahkan tidak ada satu pun tanda-tanda peradaban manusia. Dunia baru tempat ia terdampar ini seolah-olah dirancang sebagai sebuah penjara megah yang terisolasi dari seluruh garis waktu normal.",
+                    "\"Selamat datang di Garis Batas Kronos, pengembara waktu muda,\" sebuah suara feminin yang terdengar seperti dentingan loncek perak tiba-tiba mengalun dari arah belakang tubuh Kael. Kael berbalik secara instan dengan posisi waspada, siap memutar kembali tombol arloji emasnya jika makhluk bertopeng besi yang mengejarnya tadi kembali muncul. Namun, di balik bayangan sebuah pohon ek besar, berdiri seorang wanita berambut putih panjang mengenakan jubah sutra berwarna biru laut.",
+                    "Wanita itu berjalan mendekat dengan langkah kaki yang melayang beberapa sentimeter di atas hamparan rumput merah, wajahnya tampak sangat muda namun tatapan matanya menyimpan kebijaksanaan kuno. Di pergelangan tangan kirinya, melingkar sebuah gelang perak dengan ukiran roda gigi mekanis yang terus berputar lambat memancarkan pendaran cahaya keemasan. Dia menatap arloji emas di tangan Kael dengan senyuman tipis yang sulit diartikan, seolah melihat sebuah barang lama yang akhirnya pulang.",
+                    "\"Siapa kau? Dan tempat gila apa ini? Kenapa ada dua bulan di atas langit?\" cecar Kael dengan rentetan pertanyaan yang didorong oleh rasa takut dan kebingungan yang membuncah. Wanita itu menghentikan langkahnya tepat tiga meter di hadapan Kael, lalu perlahan mengangkat tangan kanannya sebagai isyarat agar Kael menurunkan arloji emasnya. Aura menenangkan yang dipancarkan oleh wanita misterius itu entah bagaimana membuat otot-otot tubuh Kael yang semula tegang berangsur-angsur menjadi rileks.",
+                    "\"Namaku Lyra, sang penjaga gerbang dimensi antara,\" jawab wanita itu lembut sembari jemarinya menyentuh salah satu bintang melayang yang mendadak muncul di sekitarnya. \"Tempat ini adalah ruang kosong yang berada di luar jangkauan Para Penjaga Kabut Waktu; sebuah tempat penampungan bagi garis lini masa yang telah mati dan dihapus dari sejarah dunia asli. Dua bulan merah di atas sanah adalah perwujudan dari dua masa depan kotamu yang telah hancur akibat bentrokan paradoks waktu.\"",
+                    "Kael menelan ludah dengan susah payah, mencerna penjelasan Lyra yang terasa semakin melompati batas kewajaran nalar mahasiswanya. Artinya, arloji milik kakeknya tidak hanya bisa menghentikan waktu beberapa detik saja, melainkan memiliki kekuatan untuk merobek dimensi dan melempar penggunanya ke ruang isolasi. Kael memandang arloji di tangannya, menyadari bahwa benda kecil ini adalah sebuah kutukan besar yang kini mengunci takdir hidupnya.",
+                    "\"Kakekmu, Arthur, menghabiskan separuh sisa umurnya di tempat ini untuk menyempurnakan arloji yang kau pegang itu,\" lanjut Lyra dengan nada suara yang berubah menjadi sendu. Wanita itu melangkah mundur, mengibaskan jubah birunya dan seketika itu juga, rumput merah di bawah kaki mereka bersinar terang, menampilkan sketsa peta kosmis raksasa yang meliuk-liuk. \"Dia tahu para pemburu akan datang, karena itulah dia menyembunyikannya di gudang kuno dengan harapan kunci ini tidak akan pernah ditemukan.\"",
+                    "Tepat ketika Lyra hendak menjelaskan cara untuk kembali ke lini masa bumi yang asli, bumi di bawah kaki mereka mendadak berguncang dengan sangat hebat. Langit malam yang dipenuhi bintang keperakan tiba-tiba retak bagaikan kaca yang dipukul martil, memancarkan kilatan cahaya petir berwarna ungu gelap yang menyambar-nyambar. Di kejauhan, permukaan tanah lapang mulai terbelah luas, memuntahkan ratusan siluet makhluk bertopeng besi yang mulai berjalan cepat mengepung posisi Kael dan Lyra."
+                ]
             }
         }
     },
@@ -153,10 +168,25 @@ const novelDatabase = {
                     "Tanpa memedulikan suasana sekitar, pemuda misterius itu mengeluarkan sebuah biola kayu berwarna cokelat gelap yang tampak sangat terawat dari dalam tasnya. Dia memejamkan mata sejenak, mengambil napas dalam-dalam, lalu mulai menggesekkan bow ke atas senar biola dengan gerakan tangan yang sangat anggun dan penuh perasaan. Detik itu juga, sebuah alunan melodi klasik yang melankolis namun sangat indah mengalir memenuhi seluruh sudut ruangan kafe tua itu.",
                     "Suara biola tersebut terdengar begitu magis, seolah-olah berinteraksi langsung dengan rintik hujan di luar dan detak jantung siapa pun yang mendengarnya. Kayla terpaku di tempat duduknya, sendok kecil yang ia pegang hampir saja terlepas dari tangan karena rasa takjub yang luar biasa yang tiba-tiba menyergap dadanya. Melodi yang dimainkan pemuda itu adalah jenis melodi yang selama ini dicari oleh Kayla—sebuah simfoni yang memiliki jiwa, kerinduan, dan cerita mendalam.",
                     "Sambil terus mendengarkan dengan mata yang berkaca-kaca, Kayla segera mengeluarkan buku catatan musik kecil dari dalam tasnya dan mulai menuliskan notasi nada yang ia dengar secara terburu-buru. Penanya menari-nari di atas kertas, mencoba merekam setiap gema emosi yang dilepaskan oleh setiap gesekan biola pemuda tersebut dengan sangat presisi. Untuk pertama kalinya dalam satu bulan terakhir, Kayla merasakan inspirasi mengalir deras bagaikan air bah di dalam kepalanya.",
-                    "Namun, kebahagiaan itu hanya bertahan beberapa menit saja ketika alunan musik biola itu mendadak berhenti di tengah jalan pada nada yang menggantung. Kayla mendongak dengan cepat, merasa kecewa karena simfoni indah tersebut terputus sebelum mencapai bagian klimaks atau akhir dari ceritanya. Di seberang sana, pemuda pemilik biola itu tampak sedang merapikan kembal alat musiknya ke dalam tas dengan tergesa-gesa, seolah menyadari sesuatu yang mendesak.",
-                    "Sebelum Kayla sempat berdiri untuk menghampirinya, pemuda itu sudah melangkah lebar menuju pintu keluar kafe, meninggalkan aroma parfum cedarwood yang samar di udara. Kayla yang tidak ingin kehilangan kesempatan emasnya segera membereskan barang-barangnya dan berlari keluar kafe untuk mengejar pemuda misterius itu di tengah guyuran hujan. Namun, saat kakinya menginjak trotoar jalan yang basah, sosok pemuda pembawa biola tersebut sudah menghilang di balik kerumunan payung orang berjalan.",
-                    "Dengan napas terengah-engah dan tubuh yang mulai basah oleh gerimis, Kayla menunduk lesu menatap buku catatan musiknya yang sedikit terkena tetesan air hujan. Saat itulah matanya menangkap sesuatu yang terjatuh di atas paving block trotoar tepat di tempat ia berdiri, sebuah benda yang tampaknya milik pemuda tadi. Itu adalah sebuah amplop kecil berwarna merah muda yang diikat menggunakan tali rami tipis dengan sebuah gantungan kunci berbentuk kunci g-clef kecil.",
+                    "Namun, kebahagiaan itu hanya bertahan beberapa menit saja ketika alunan musik biola itu mendadak berhenti di tengah jalan pada nada yang menggantung. Kayla mendongak dengan cepat, merasa kecewa karena simfoni indah tersebut terputus sebelum mencapai bagian klimaks atau akhir dari ceritanya. Di seberang sana, pemuda pemilik biola itu tampak sedang merapikan kembali alat musiknya ke dalam tas dengan tergesa-gesa, seolah menyadari sesuatu yang mendesak.",
+                    "Sebelum Kayla sempat berdiri untuk menghampirinya, pemuda itu sudah melangkah lebar menuju pintu keluar kafe, meninggalkan aroma parfum cedarwood yang samar di udara. Kayla yang tidak ingin kehilangan kesempatan emasnya segera membereskan barang-barang dan berlari keluar kafe untuk mengejar pemuda misterius itu di tengah guyuran hujan. Namun, saat kakinya menginjak trotoar jalan yang basah, sosok pemuda pembawa biola tersebut sudah menghilang di balik kerumunan payung orang berjalan.",
+                    "With naskah terengah-engah dan tubuh yang mulai basah oleh gerimis, Kayla menunduk lesu menatap buku catatan musiknya yang sedikit terkena tetesan air hujan. Saat itulah matanya menangkap sesuatu yang terjatuh di atas paving block trotoar tepat di tempat ia berdiri, sebuah benda yang tampaknya milik pemuda tadi. Itu adalah sebuah amplop kecil berwarna merah muda yang diikat menggunakan tali rami tipis dengan sebuah gantungan kunci berbentuk kunci g-clef kecil.",
                     "Kayla memungut amplop merah muda tersebut dengan hati-hati agar tidak robek karena basah, lalu perlahan membuka lipatan kertas di dalamnya yang ternyata berisi tulisan tangan rapi. 'Untuk simfoni yang belum selesai, temui aku di ujung dermaga saat senja kembali berpadu dengan hujan,' baca Kayla pelan di balik deru suara badai sore itu. Jantungnya berdegup kencang, menyadari bahwa untaian surat misterius ini adalah awal dari sebuah babak baru yang akan mengubah seluruh hidup dan karya musiknya."
+                ]
+            },
+            "2": {
+                "title": "Episode 2: Surat Merah Muda dan Dermaga Sunyi",
+                "content": [
+                    "Genggaman tangan Kayla pada kertas surat berwarna merah muda itu mengerat, mengabaikan rintik gerimis sore yang mulai membasahi helai rambutnya di sepanjang trotoar jalan Braga. Kata-kata yang tertulis di dalam kertas tersebut terasa berputar-putar di dalam benaknya, memicu kombinasi rasa penasaran yang mendalam sekaligus getaran aneh yang belum pernah ia rasakan sebelumnya. Siapakah pemuda pembawa biola misterius itu? Dan melodi indah macam apa yang sedang coba dia sampaikan lewat simfoni gantungnya tadi?",
+                    "Tanpa membuang waktu lebih lama lagi, Kayla segera menyimpan surat itu ke dalam tas rajutnya dengan sangat hati-hati, lalu berbalik arah menuju halte bus terdekat di ujung jalan. Tujuannya hanya satu malam ini: Dermaga Utara, sebuah tempat sepi di pinggiran kota yang biasanya hanya dikunjungi oleh para nelayan tua atau pencari ketenangan di kala senja tiba. Perjalanan menggunakan bus kota terasa sangat lama bagi Kayla, karena pikirannya sudah melompat jauh ke ujung dermaga membayangkan pertemuan mereka.",
+                    "Bus kota akhirnya berhenti di halte terdekat dari kawasan pantai saat jarum jam menunjukkan pukul lima sore lewat tiga puluh menit, tepat saat awan mendung menyatu dengan warna jingga senja. Kayla turun dari bus dengan langkah kaki setengah berlari, membelah embusan angin laut yang membawa aroma garam khas dan udara dingin yang menusuk kulit jaketnya. Dari kejauhan, siluet jembatan kayu dermaga tua yang menjulur panjang ke arah lautan lepas mulai terlihat samar di balik kabut gerimis tipis.",
+                    "Langkah Kayla melambat ketika sepatunya mulai menginjak papan-papan kayu dermaga yang basah dan menimbulkan suara ketukan berongga yang khas setiap kali ia melangkah maju. Suasana di sekitar dermaga benar-benar sangat sunyi, hanya ada suara deburan ombak kecil yang menghantam tiang-tiang penyangga beton di bawah jembatan jembatan kayu tersebut. Di ujung terjauh dari dermaga yang berkabut itu, terlihat sesosok siluet pria jangkung sedang berdiri diam membelakangi arah kedatangan Kayla.",
+                    "Pemuda itu mengenakan jaket denim yang sama dengan yang ia lihat di kafe Braga tadi, berdiri tegak sembari memandangi hamparan laut lepas yang mulai menggelap ditelan malam. Di tangan kanannya, bow biola sudah tergenggam erat, seolah-olah dia memang sedang menunggu kehadiran instrumen pelengkap untuk memulai pertunjukan musik rahasianya. Kayla menghentikan langkah kakinya tepat lima meter di belakang pemuda tersebut, menahan napas karena tidak ingin merusak keheningan magis tempat itu.",
+                    "\"Kau datang lebih cepat dari yang kukira, Kayla,\" ucap pemuda itu perlahan tanpa membalikkan badannya untuk melihat wajah Kayla yang terkejut setengah mati di belakangnya. Kayla terkesiap, jantungnya berdegup dua kali lebih cepat mendengar pemuda misterius itu mengetahui nama panggilannya dengan sangat fasih padahal mereka belum berkenalan. Bagaimana mungkin orang asing yang baru ia temui secara tidak sengaja di sebuah kafe sejam lalu bisa mengetahui identitas dirinya?",
+                    "Pemuda itu perlahan membalikkan tubuhnya menghadap Kayla, menampilkan seraut wajah tegas dengan sepasang mata cokelat hangat yang memancarkan ketenangan yang luar biasa bagi siapa pun yang melihatnya. Dia menyunggingkan senyum tipis yang ramah, lalu mengangkat biola kayu kunonya ke atas pundak kirinya dengan gerakan yang sangat natural dan terlatih. \"Jangan heran bagaimana aku tahu namamu; buku catatan musik yang kau jatuhkan di bawah meja kafe tadi memiliki nama pemilik di sampul depannya.\"",
+                    "Rasa malu langsung merona merah di kedua pipi Kayla membuat mahasiswi seni musik itu menunduk canggung sembari meraba tasnya, menyadari kebodohannya yang teledor menjatuhkan barang penting. Namun, rasa canggung itu seketika sirna ketika pemuda itu mulai menggesekkan bow ke atas senar biolanya, melanjutkan bait melodi gantung yang terputus di kafe jalan Braga tadi. Nada-nada tinggi yang melankolis kembali meluncur indah, memecah kesunyian malam dermaga dan berpadu sempurna dengan suara deburan ombak pantai.",
+                    "Kali ini, alunan musiknya terasa jauh lebih megah dan emosional, seolah-olah pemuda itu sedang menuangkan seluruh isi hatinya ke dalam setiap gesekan dawai kayu biola tersebut. Kayla kembali terpaku di tempatnya berdiri, air mata kekaguman perlahan menetes di pipinya karena melodi ini merambat masuk ke dalam sukmanya, menghidupkan kembali inspirasi musiknya yang sempat mati. Dia merasakan ada sebuah ikatan batin yang tak kasat mata mulai terajut di antara musik biola pemuda itu dan detak jiwanya sendiri.",
+                    "Saat melodi mencapai puncaknya di bawah rintik hujan malam yang kian menderu, pemuda itu menghentikan gesekannya dengan satu nada panjang yang bergetar lembut di udara. Dia menurunkan biolanya, menatap lurus ke dalam manik mata Kayla dengan pandangan yang penuh arti di bawah temaram lampu dermaga yang mulai menyala redup. Pemuda itu mengulurkan tangan kirinya ke arah Kayla sembari berkata, \"Namaku Arya. Mari kita selesaikan komposisi simfoni hujan ini bersama-sama, Kayla.\""
                 ]
             }
         }
@@ -164,9 +194,8 @@ const novelDatabase = {
 };
 
 // ==========================================
-// LOGIKA MENAMPILKAN CERITA SECARA DINAMIS
+// LOGIKA MENAMPILKAN CERITA & TOMBOL NAVIGASI
 // ==========================================
-// Variabel global untuk menyimpan posisi bacaan saat ini
 let currentNovelId = "";
 let currentEpisodeId = 1;
 
@@ -176,7 +205,6 @@ window.onload = function() {
     const episodeId = urlParams.get('ep');
 
     if (document.getElementById('storyContent') && novelId && episodeId) {
-        // Simpan data ke variabel global agar bisa dipakai tombol navigasi bawah
         currentNovelId = novelId;
         currentEpisodeId = parseInt(episodeId);
 
@@ -197,7 +225,6 @@ window.onload = function() {
                 storyContentArea.appendChild(pTag);
             });
 
-            // ATUR TOMBOL SEBELUMNYA (Jika di episode 1, sembunyikan tombolnya)
             if (currentEpisodeId === 1) {
                 document.getElementById('btnPrev').style.visibility = 'hidden';
             } else {
@@ -211,7 +238,6 @@ window.onload = function() {
     }
 };
 
-// FUNGSI BARU: LOGIKA LONCAT EPISODE / KEMBALI KE KOLEKSI NOVEL
 function navigateEpisode(direction) {
     let targetEpisode = currentEpisodeId;
 
@@ -223,47 +249,21 @@ function navigateEpisode(direction) {
 
     const novel = novelDatabase[currentNovelId];
 
-    // Cek apakah episode target ada di database atau tidak
     if (novel && novel.episodes[targetEpisode]) {
-        // Jika ada, langsung pindah ke episode tersebut
         window.location.href = `baca.html?novel=${currentNovelId}&ep=${targetEpisode}`;
     } else {
-        // Jika tidak ada / belum rilis (Coming Soon)
         alert("Cerita episode berikutnya akan segera hadir, masih disiapkan oleh developer! 🙏");
-        // Langsung arahkan kembali ke halaman utama (koleksi novel)
         window.location.href = "novel.html";
     }
 }
 
 // ==========================================
-// FITUR GLOBAL & AKSESIBILITAS UTAMA
+// FITUR GLOBAL & MENU UTAMA
 // ==========================================
-
-// Fungsi Pindah Menu Tab di Novel
-function switchTab(tabId) {
-    const contents = document.querySelectorAll('.tab-content');
-    contents.forEach(content => content.classList.remove('active'));
-
-    const navLinks = document.querySelectorAll('.nav-menu');
-    // Jika elemen navigasi ada di halaman (bukan halaman baca)
-    if(navLinks.length > 0) {
-        const links = document.querySelectorAll('.nav-link');
-        links.forEach(link => link.classList.remove('active'));
-        document.getElementById(tabId).classList.add('active');
-        links.forEach(link => {
-            if (link.getAttribute('onclick').includes(tabId)) {
-                link.classList.add('active');
-            }
-        });
-    }
-}
-
-// Pop up Alert Coming Soon
 function comingSoon() {
     alert("Akan segera hadir, masih disiapkan oleh developer 🙏");
 }
 
-// Mengubah Tema Global Halaman Utama
 function changeGlobalTheme() {
     const themeValue = document.getElementById('globalTheme').value;
     if (themeValue === 'dark') {
@@ -273,7 +273,6 @@ function changeGlobalTheme() {
     }
 }
 
-// Mengubah Ukuran Huruf di Halaman Baca
 function adjustFont(operator) {
     const paragraphs = document.querySelectorAll('.story-body p');
     paragraphs.forEach(p => {
@@ -286,7 +285,6 @@ function adjustFont(operator) {
     });
 }
 
-// Mengubah Gaya Teks Halaman Baca
 function changeReaderFont() {
     const selectedFont = document.getElementById('fontStyle').value;
     const storyBody = document.getElementById('storyContent');
@@ -299,7 +297,6 @@ function changeReaderFont() {
     }
 }
 
-// Mengubah Warna Latar Belakang Teks Halaman Baca
 function changeReaderTheme() {
     const selectedTheme = document.getElementById('colorTheme').value;
     document.body.classList.remove('mode-malam', 'mode-sepia');
